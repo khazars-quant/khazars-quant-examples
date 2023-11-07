@@ -4,7 +4,7 @@
 
 - The balance telegram monitor alarm .
     - Check balance | Check position
-    - Alarm the balance / generate the APY images 
+    - Alarm the balance & send it via telegram bot to target UID user
     - Loop & Sleep
 
 - The OKEX copy trading .

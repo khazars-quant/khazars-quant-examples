@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "khazars-quant": "^1.0.1"
+    "khazars-quant": "^1.0.1",
+    "node-telegram-bot-api": "^0.64.0"
   }
 }
