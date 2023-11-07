@@ -24,10 +24,10 @@ async function getBal(arr)
     {
         var e = arr[i];
         var s = (await e.spot.account())?.data?.balances;
-        var spots = getSpotBal("BTC",s)
-        console.log(spots)
-        // var future = await e.future.account();
-        // console.log(future)
+        //var spots = getSpotBal("BTC",s)
+        //console.log(spots)
+        var future = await e.future.account();
+        console.log(future)
     }
 }
 async function init()
